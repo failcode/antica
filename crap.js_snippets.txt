@@ -1,0 +1,8 @@
+  imgBoxBg = imgBoxBg.backgroundImage.toString();
+  console.log(imgBoxBg);
+  imgBoxBg = imgBoxBg.slice(31, -2);
+  console.log(imgBoxBg);
+
+  ajaxGet('http://localhost:8080/stuff/?p1=qparam1&p2=Hello+World', function(data) {
+    console.log(data);
+  });
